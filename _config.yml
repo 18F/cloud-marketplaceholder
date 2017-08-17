@@ -1,0 +1,46 @@
+name: Project Boise
+
+author:
+  name: 18F
+  url: https://18f.gsa.gov
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "guides_style_18f_default"
+
+expand_nav: true
+navigation:
+- text: Overview
+  internal: true
+- text: Knowns
+  url: knowns/
+  internal: true
+- text: Stakeholders
+  url: stakeholders/
+  internal: true
+- text: Hypotheses
+  url: hypotheses/
+  internal: true
+- text: Outcomes
+  url: outcomes/
+  internal: true
+- text: Areas of ATO work
+  url: areas/
+  internal: true
+- text: Trello board
+  url: https://trello.com/b/2SJKtNUA/project-boise
+- text: Contact us
+  url: mailto:aidan.feldman@gsa.gov
+
+repos:
+- name: Boise site
+  description: Main repository
+  url: https://github.com/18F/boise
