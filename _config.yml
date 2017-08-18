@@ -38,9 +38,9 @@ navigation:
 - text: Trello board
   url: https://trello.com/b/2SJKtNUA/project-boise
 - text: Contact us
-  url: mailto:aidan.feldman@gsa.gov
+  url: mailto:steven.reilly@gsa.gov
 
 repos:
-- name: Boise site
+- name: Cloud marketplaceholder
   description: Main repository
   url: https://github.com/18F/boise
