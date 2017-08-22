@@ -18,13 +18,13 @@ defaults:
 
 expand_nav: true
 navigation:
-- text: Overview
+- text: Project summary & goal
   internal: true
-- text: Knowns
-  url: knowns/
+- text: Emerging policies
+  url: policies/
   internal: true
-- text: Stakeholders
-  url: stakeholders/
+- text: Relevant projects & organizations
+  url: projects/
   internal: true
 - text: Hypotheses
   url: hypotheses/
@@ -32,8 +32,12 @@ navigation:
 - text: Outcomes
   url: outcomes/
   internal: true
-- text: Contact us
-  url: mailto:steven.reilly@gsa.gov
+- text: Prototype
+  url: prototype/
+  internal: true
+- text: Questions?
+  url: questions/
+  internal: true
 
 repos:
 - name: Cloud marketplaceholder

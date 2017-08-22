@@ -1,20 +1,6 @@
 ---
 permalink: /
-title: Overview
+title: Project summary & goal
 ---
 
-- [tbd]
-
-## Goals
-
-### Long-term
-
-The Project's long-term goals include
-
-- [tbd]
-
-### Short-term
-
-More tactically, here are the primary things that Boise will complete in the first ~month:
-
-1. First, [tbd]
+The cloud marketplace is a TTS Office of Acquisition project exploring the opportunity to turn Apps.gov from a SaaS discovery tool into a SaaS procurement tool. Our initial hypothesis is that such a tool could dramatically reduce the amount of time it takes for an agency to acquire SaaS licenses and to increase/decrease the number of licenses used.
