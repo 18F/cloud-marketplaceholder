@@ -16,29 +16,6 @@ defaults:
     values:
       layout: "guides_style_18f_default"
 
-expand_nav: true
-navigation:
-- text: Project summary & goal
-  internal: true
-- text: Emerging policies
-  url: policies/
-  internal: true
-- text: Relevant projects & organizations
-  url: projects/
-  internal: true
-- text: Hypotheses
-  url: hypotheses/
-  internal: true
-- text: Outcomes
-  url: outcomes/
-  internal: true
-- text: Prototype
-  url: prototype/
-  internal: true
-- text: Questions?
-  url: questions/
-  internal: true
-
 repos:
 - name: Cloud marketplaceholder
   description: Main repository
