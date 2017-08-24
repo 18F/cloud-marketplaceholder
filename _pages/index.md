@@ -3,10 +3,9 @@ permalink: /
 title: Gov cloud market
 ---
 
-# Summary and goal
-The cloud marketplace is a TTS Office of Acquisition project exploring the opportunity to turn Apps.gov from a SaaS discovery tool into a SaaS procurement tool. Our initial hypothesis is that such a tool could dramatically reduce the amount of time it takes for an agency to acquire SaaS licenses and to increase/decrease the number of licenses used.
+The cloud marketplace is a TTS Office of Acquisition project exploring the opportunity to turn Apps.gov from a SaaS discovery tool into a SaaS procurement tool.
 
-# Hypotheses
+## Hypotheses
 **A SaaS procurement tool could:**
 - dramatically reduce the amount of time it takes for an agency to acquire SaaS licenses and to increase/decrease the number of licenses used,
 - show public servants some of the SaaS tools their colleagues use,
@@ -14,7 +13,7 @@ The cloud marketplace is a TTS Office of Acquisition project exploring the oppor
 - help move away from purchasing cards, and
 - better inform SaaS purchasing decisions.
 
-# Prototype
+## Prototype
 
 The team has created a prototype to spark conversation centered around the idea of a “store” where government employees could obtain cloud-based software. Please note it isn’t meant to represent a recommended direction or design.
 
@@ -23,17 +22,17 @@ The team has created a prototype to spark conversation centered around the idea 
 ### [Try it now](https://gsa.invisionapp.com/share/4RCD8OISB#/241551676_home-Logged-In)
 Then share your thoughts using the [feedback link](http://docs.google.com/forms/d/e/1FAIpQLSer389kqIkYiYW5Veqcf8urhr_ldLmCEBf-l-fU5O6gYWKRmQ/viewform) on the prototype. Thanks!
 
-# Approach
+## Approach
 - The team is taking a ‘Wizard of Oz’ approach to initial development: a lightweight ordering interface, but a lot of manual work happening behind the scenes.
 - Products and customers will be onboarded slowly instead of a ‘big bang’ approach.
 
 
-# Emerging policies
+## Emerging policies
 - 2017 NDAA § 880 - allows for procurement of “innovative” technologies up to $10 million so long as the offers undergo “peer review”
 - 2018 NDAA § 801 (not passed) - also known as the Thornberry bill, would allow government to waive competition requirements when buying off a commercial marketplace
 
 
-# Relevant projects and organizations
+## Relevant projects and organizations
 
 **Office of Government-wide Policy**
 
@@ -70,5 +69,5 @@ Part of the Office of IT Category, “IT Schedule 70 features over 5,000 industr
 **[Acquisition Gateway](https://hallways.cap.gsa.gov/)**<br>
 For federal acquisition professionals, “the hub of an acquisition professional’s daily activities.  We are revamping how the government approaches procurement, replacing the decades-old model of a fragmented and scattered approach to acquisition.”[https://hallways.cap.gsa.gov/](video intro)
 
-# Questions?
+## Questions?
 We'd love to hear from you. Please use this [google form](http://docs.google.com/forms/d/e/1FAIpQLSer389kqIkYiYW5Veqcf8urhr_ldLmCEBf-l-fU5O6gYWKRmQ/viewform) to share your thoughts and questions.
