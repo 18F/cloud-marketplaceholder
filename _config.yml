@@ -14,7 +14,7 @@ defaults:
     scope:
       path: ""
     values:
-      layout: "guides_style_18f_default"
+      layout: "default"
 
 styles:
   - assets/css/styles.css
