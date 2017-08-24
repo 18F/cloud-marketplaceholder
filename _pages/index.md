@@ -17,7 +17,7 @@ The cloud marketplace is a TTS Office of Acquisition project exploring the oppor
 
 The team has created a prototype to spark conversation centered around the idea of a “store” where government employees could obtain cloud-based software. Please note it isn’t meant to represent a recommended direction or design.
 
-![Prototype thumbnail]({{ '../assets/img/prototype-thumb.png' | relative_url }})](https://gsa.invisionapp.com/share/4RCD8OISB#/241551676_home-Logged-In)
+[![Prototype thumbnail]({{ '../assets/img/prototype-thumb.png' | relative_url }})](https://gsa.invisionapp.com/share/4RCD8OISB#/241551676_home-Logged-In)
 
 ### [Try it now](https://gsa.invisionapp.com/share/4RCD8OISB#/241551676_home-Logged-In)
 Then share your thoughts using the [feedback link](http://docs.google.com/forms/d/e/1FAIpQLSer389kqIkYiYW5Veqcf8urhr_ldLmCEBf-l-fU5O6gYWKRmQ/viewform) on the prototype. Thanks!
