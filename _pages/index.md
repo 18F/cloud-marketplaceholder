@@ -3,10 +3,10 @@ permalink: /
 title: Gov cloud market
 ---
 
-The cloud marketplace is a TTS Office of Acquisition project exploring the opportunity to turn Apps.gov from a SaaS discovery tool into a SaaS procurement tool.
+The cloud marketplace project is exploring revising [Apps.gov](https://apps.gov) from a Software as a Service (SaaS) discovery tool into a SaaS procurement tool. This project is being worked on by the [Technology Transformation Service](https://www.gsa.gov/tts) (TTS) Office of Acquisition.
 
 ## Hypotheses
-**A SaaS procurement tool could:**
+**After initial discussions with SaaS users, license managers, purchasers, and IT managers, the cloud marketplace team believes SaaS procurement tool could:**
 - dramatically reduce the amount of time it takes for an agency to acquire SaaS licenses and to increase/decrease the number of licenses used,
 - show public servants some of the SaaS tools their colleagues use,
 - clarify purchasing next steps,
@@ -15,7 +15,7 @@ The cloud marketplace is a TTS Office of Acquisition project exploring the oppor
 
 ## Prototype
 
-The team has created a prototype to spark conversation centered around the idea of a “store” where government employees could obtain cloud-based software. Please note it isn’t meant to represent a recommended direction or design.
+The team has created a prototype to spark conversation around the idea of a “store” where government employees could obtain cloud-based software. Please note it isn’t meant to represent a recommended direction or design.
 
 [![Prototype thumbnail]({{ '/assets/img/prototype-thumb.png' | relative_url }})](https://gsa.invisionapp.com/share/4RCD8OISB#/241551676_home-Logged-In)
 
@@ -23,23 +23,24 @@ The team has created a prototype to spark conversation centered around the idea 
 Then share your thoughts using the [feedback link](http://docs.google.com/forms/d/e/1FAIpQLSer389kqIkYiYW5Veqcf8urhr_ldLmCEBf-l-fU5O6gYWKRmQ/viewform) on the prototype. Thanks!
 
 ## Approach
-- The team is taking a ‘Wizard of Oz’ approach to initial development: a lightweight ordering interface, but a lot of manual work happening behind the scenes.
-- Products and customers will be onboarded slowly instead of a ‘big bang’ approach.
 
+- Initial development will be of a lightweight ordering interface, but with a lot of manual work happening behind the scenes—otherwise known as ‘Wizard of Oz’ prototyping.
+- Products and customers will be onboarded gradually instead of using a ‘big bang’ approach.
 
 ## Emerging policies
-- 2017 NDAA § 880 - allows for procurement of “innovative” technologies up to $10 million so long as the offers undergo “peer review”
-- 2018 NDAA § 801 (not passed) - also known as the Thornberry bill, would allow government to waive competition requirements when buying off a commercial marketplace
 
+New procurement vehicles may offer opportunities to streamline SaaS purchasing.
+- [2017 NDAA § 880](https://www.congress.gov/congressional-report/114th-congress/house-report/840/1) - allows for procurement of “innovative” technologies up to $10 million so long as the offers undergo “peer review”
+- [2018 NDAA § 801](https://www.congress.gov/bill/115th-congress/house-bill/2810/text) (not passed) - also known as the Thornberry bill, would allow government to waive competition requirements when buying off a commercial marketplace
 
 ## Relevant projects and organizations
 
-**Office of Government-wide Policy**
+**[Office of Government-wide Policy](https://gsa.gov/governmentwidepolicy)**
 
 **TTS Software Catalog**<br>
 TTS Acquisitions project looking to establish a catalog of software that can be easily bought from.
 
-**GSA IT**<br>
+**[GSA IT](https://www.gsa.gov/ocio)**<br>
 Runs the IT Standards process for GSA, which approves software and SaaS for use by GSA.
 
 **[Software License Management Service (SLMS)](https://www.gsa.gov/portal/content/154742)**<br>
