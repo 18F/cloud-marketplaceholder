@@ -1,25 +1,40 @@
-name: Gov Cloud Market
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
 
-author:
-  name: 18F
-  url: https://18f.gsa.gov
+# Site settings
+title: federalist-landing-page-template
 
-collections:
-  pages:
-    output: true
-    permalink: /:path/
+email: federalist-inquiries@gsa.gov
 
-defaults:
-  -
-    scope:
-      path: ""
-    values:
-      layout: "guides_style_18f_default"
+# this means to ignore newlines until "baseurl:"
+description: ''
 
-styles:
-  - assets/css/styles.css
+# the subpath of your site, e.g. /blog
+baseurl: ''
 
-repos:
-- name: Cloud marketplaceholder
-  description: Main repository
-  url: https://github.com/18F/cloud-marketplaceholder
+# the base hostname & protocol for your site
+url: ''
+
+twitter_username: 18F
+github_username:  18F
+
+# scripts to load on all pages
+scripts: []
+
+# Build settings
+markdown: kramdown
+
+# Exlude files from being present in the build site
+exclude:
+- ".gitignore"
+- Gemfile
+- Gemfile.lock
+- README.md
+- LICENSE
+- package.json
+- node_modules
+- README.md
