@@ -2,11 +2,11 @@
   {% for prototype in page.prototype %}
     {% if prototype.image %}
     <li>
-      <a class="cover" href="{{ prototype.href | prepend: site.baseurl }}">
+      <a class="cover" target="_blank" href="{{ prototype.href }}">
         <img src="{{ prototype.image.href | prepend: site.baseurl }}" alt="{{ prototype.image.alt }}">
       </a>
 
-      <a class="button" href="{{ prototype.href | prepend: site.baseurl }}">
+      <a class="button" target="_blank" href="{{ prototype.href }}">
         <strong>{{ prototype.text.primary }}</strong>
         {{ prototype.text.secondary }}
       </a>
