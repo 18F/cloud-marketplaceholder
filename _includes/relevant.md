@@ -1,9 +1,9 @@
-### Office of Government-wide Policy
+### [Office of Government-wide Policy](https://gsa.gov/governmentwidepolicy)
 
-#### TTS Software Catalog <br>
+#### TTS Software Catalog
 TTS Acquisitions project looking to establish a catalog of software that can be easily bought from.
 
-#### GSA IT <br>
+#### [GSA IT](https://www.gsa.gov/ocio)
 Runs the IT Standards process for GSA, which approves software and SaaS for use by GSA.
 
 #### [Software License Management Service (SLMS)](https://www.gsa.gov/portal/content/154742)
