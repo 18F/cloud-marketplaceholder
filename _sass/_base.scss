@@ -42,13 +42,13 @@ a:active {
 }
 
 // clean up after the WDS list styles
-ul li {
-  &::before,
-  &::after {
-    content: "";
-    display: none;
-  }
-}
+// ul li {
+//   &::before,
+//   &::after {
+//     content: "";
+//     display: none;
+//   }
+// }
 
 .container {
   max-width: 800px;
