@@ -21,6 +21,7 @@ h6 {
 }
 
 h4 {
+  color: $dark-gray;
   font-weight: 700;
 }
 
@@ -29,9 +30,10 @@ h3:before {
 }
 
 h3 {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 700;
   letter-spacing: .2rem;
+  line-height: 1.5;
   text-transform: uppercase;
   margin-bottom: 1.5rem;
 }
@@ -89,10 +91,15 @@ header {
     padding: 1em;
     position: relative;
 
+    p {
+      margin-top: 0.3em;
+    }
+
     .icon {
-      width: 2.3em;
-      height: 2.3em;
+      width: 3.5em;
+      height: 3.5em;
       margin-right: 0.3em;
+      margin-top: 0.5em;
 
       // the graph needs to be wider because
       // it has a wider aspect ratio
@@ -324,7 +331,7 @@ aside {
   }
 }
 
-#about h1 {
+#hypothesis h1 {
   border-color: $red;
 
   &::after {
@@ -340,7 +347,7 @@ aside {
   }
 }
 
-#relevant h1 {
+#links h1 {
   border-color: $red;
 
   &::after {
@@ -558,6 +565,18 @@ footer {
     margin-top: 2em;
   }
 }
+
+  header h1 a {
+    color: black;
+
+    &:hover {
+      color: $dark-gray;
+    }
+
+    &:visited {
+      color: black;
+    }
+  }
 
 @media screen and (min-width: 800px) {
 
