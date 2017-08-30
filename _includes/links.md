@@ -1,4 +1,4 @@
-## Here are some other programs and organizations which are relevant to the cloud marketplace project. (reformat this)
+## Here's some other programs and organizations relevant to the cloud marketplace project.
 
 #### [Office of Government-wide Policy](https://gsa.gov/governmentwidepolicy)
 
