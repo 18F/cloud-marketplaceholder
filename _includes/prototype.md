@@ -1,3 +1,3 @@
-The team has created a prototype to spark conversation around the idea of a “store” where government employees could obtain cloud-based software. Please note it isn’t meant to represent a recommended direction or design.
+The prototype is not supposed to be a recommended direction or design. The idea is to spark conversation around the idea of a “store”. When users start looking at a platform for obtaining cloud-based software, what feels right? What feels wrong? What capabilities would be useful?
 
 {% include prototype-content.html %}
