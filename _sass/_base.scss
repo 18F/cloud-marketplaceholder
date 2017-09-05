@@ -268,60 +268,10 @@ aside {
     ul {
       display: none;
     }
-
-    &.open {
-      background-color: $black;
-      color: $white;
-      padding-bottom: 0;
-
-      span:after {
-        margin-top: 0;
-        transform: rotate(-135deg);
-      }
-
-      ul {
-        display: block;
-        margin-top: 1.3em;
-        margin-bottom: 0;
-        width: 100%;
-      }
-
-      li {
-        background-color: $green;
-        border-bottom: 2px solid $black;
-        display: block;
-        margin: 0;
-        min-height: 9em;
-        padding: 1.7em;
-        width: 100%;
-
-        &:last-child {
-          border-bottom: none;
-        }
-
-        a {
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-        }
-
-        .prototype-text,
-        .prototype-image {
-          display: block;
-        }
-
-        .prototype-text {
-          span {
-            display: block;
-          }
-        }
-
-        img {
-          width: 70px;
-        }
-      }
-    }
   }
+
+
+
 }
 
 #about h1 {
@@ -364,63 +314,15 @@ section .container {
   position: relative;
 }
 
-// "What we found" grid
-.grid-list + ul {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  padding: 0;
-  margin: 0;
+ul li {
+  display: list-item;
+  list-style: square;
+}
 
-  li {
-    $icon-size: 3em;
-
-    display: block;
-    list-style: none;
-    padding: 0 0.5em 1em ($icon-size + 1.5em);
-    position: relative;
-    margin: 0;
-    width: 50%;
-
-    @media all and (max-width: 800px) {
-      width: 100%;
-    }
-
-    h3 {
-      // font-size: inherit;
-      margin-top: 0;
-
-      &::before {
-        content: "";
-        display: block;
-        width: $icon-size;
-        height: $icon-size;
-        background-color: $blue;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: auto 65%;
-        position: absolute;
-        top: 0;
-        left: 0;
-      }
-
-      &.clipboard-icon::before {
-        background-image: url($clipboard-icon);
-      }
-
-      &.federal-icon::before {
-        background-image: url($federal-icon);
-      }
-
-      &.search-icon::before {
-        background-image: url($search-icon);
-      }
-
-      &.serve-icon::before {
-        background-image: url($serve-icon);
-      }
-    }
-  }
+ul, ol {
+  list-style: disc;
+  padding-left: 2em;
+  display: table;
 }
 
 #report {
