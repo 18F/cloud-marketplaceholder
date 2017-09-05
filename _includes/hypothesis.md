@@ -6,5 +6,5 @@
 * better inform SaaS purchasing decisions.
 
 ## Approach
-* Initially, we’re developing a lightweight ordering interface, but most of the behind-the-scenes work remains manual—otherwise known as ‘Wizard of Oz’ prototyping.
-* Instead of a ‘big bang’ approach, we plan to onboard products and customers gradually.
+* Our initial approach to the prototype is to develop a lightweight ordering interface. Most of the behind-the-scenes work remains manual—otherwise known as ‘Wizard of Oz’ prototyping. This may be the direction we continue in or it may not. But we want to know what this interface does for users.
+* We plan to onboard products and customers gradually—choosing those that meet criteria we are expanding to address.
