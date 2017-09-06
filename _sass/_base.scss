@@ -14,10 +14,12 @@ h6 {
 h1,
 h2,
 h3,
-h4,
-h5,
 h6 {
   font-weight: 100;
+}
+
+h2 {
+  color: $dark-gray;
 }
 
 h4 {
@@ -32,8 +34,15 @@ h3 {
   font-size: 1.5rem;
   font-weight: 700;
   letter-spacing: .2rem;
+  line-height: 1.5em;
   text-transform: uppercase;
   margin-bottom: 1.5rem;
+}
+
+h5 {
+  font-style: italic;
+  font-weight: 400;
+  margin-bottom: 0px;
 }
 
 a:hover,
@@ -74,6 +83,7 @@ header {
   position: relative;
 
   & > .container {
+    max-width: 1000px;
     padding: 2em 0;
 
     @media all and (max-width:$mobile-width) {
@@ -90,8 +100,8 @@ header {
     position: relative;
 
     .icon {
-      width: 2.3em;
-      height: 2.3em;
+      width: 3em;
+      height: 3em;
       margin-right: 0.3em;
 
       // the graph needs to be wider because
@@ -125,27 +135,6 @@ header {
       margin: .1em;
       margin-right: 1em;
     }
-
-    @media all and (min-width: 1200px) {
-      background-color: transparent;
-      bottom: 2em;
-      position: absolute;
-      right: 2em;
-      z-index: 2;
-
-      img {
-        height: 16px;
-        width: 26px;
-      }
-
-      a:hover + p {
-        visibility: visible;
-      }
-
-      p {
-        visibility: hidden;
-      }
-    }
   }
 }
 
@@ -155,12 +144,12 @@ nav {
   position: relative;
 
   @media all and (max-width: $mobile-width) {
-    background: rgba(0, 0, 0, .4);
+    background: rgba(0, 0, 0, .7);
   }
 
   ul {
     display: block;
-    line-height: 1;
+    line-height: 2;
     list-style: none;
     margin-top: 0;
     margin-bottom: 0;
@@ -274,7 +263,7 @@ aside {
 
 }
 
-#about h1 {
+#hypothesis h1 {
   border-color: $red;
 
   &::after {
@@ -290,11 +279,19 @@ aside {
   }
 }
 
-#relevant h1 {
+#policies h1 {
   border-color: $red;
 
   &::after {
     border-color: $red;
+  }
+}
+
+#relevant h1 {
+  border-color: $blue;
+
+  &::after {
+    border-color: $blue;
   }
 }
 
@@ -315,6 +312,7 @@ section .container {
 }
 
 ul li {
+  color: $dark-gray;
   display: list-item;
   list-style: square;
 }
@@ -357,7 +355,7 @@ ul, ol {
     width: 100%;
 
     li {
-      display: block;
+      display: contents;
     }
 
     li:after {
@@ -469,7 +467,7 @@ footer {
 
   header h1 {
     padding: 1.5em 1.5em 1.5em;
-    width: 50%;
+    width: 70%;
   }
 
   nav ul {
