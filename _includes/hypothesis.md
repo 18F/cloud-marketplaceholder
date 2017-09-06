@@ -1,4 +1,4 @@
-### Based on initial discussions with government SaaS users, license managers, purchasers, and IT managers, the cloud marketplace team believes a digital SaaS procurement tool could:
+Based on initial discussions with government SaaS users, license managers, purchasers, and IT managers, the cloud marketplace team believes a digital SaaS procurement tool could:
 * reduce the amount of time it takes for an agency to acquire SaaS licenses and to increase/decrease the number of licenses used,
 * show public servants some of the SaaS tools their colleagues use,
 * clarify purchasing next steps,
