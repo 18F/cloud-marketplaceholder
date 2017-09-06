@@ -1,3 +1,5 @@
+### Technology listings
+
 #### [Office of Government-wide Policy](https://gsa.gov/governmentwidepolicy)
 
 #### TTS Software Catalog
@@ -12,6 +14,8 @@ The existing Apps.gov website has extensive information, but no longer has staff
 #### [GSA Advantage!](https://www.gsaadvantage.gov/)
 “GSA Advantage!® is the online shopping and ordering system that provides access to thousands of contractors and millions of supplies (products) and services. Anyone may browse on GSA Advantage!® to view and compare the variety of products and services offered. Federal government employees can make purchases on GSA Advantage!”
 
+### Procurement support and facilitation
+
 #### [GSA IT](https://www.gsa.gov/ocio)
 Runs the IT Standards process for GSA, which approves software and SaaS for use by GSA.
 
@@ -23,6 +27,8 @@ Part of the Office of IT Category, “IT Schedule 70 features over 5,000 industr
 
 #### [Acquisition Gateway](https://hallways.cap.gsa.gov/)
 For federal acquisition professionals, “the hub of an acquisition professional’s daily activities.  We are revamping how the government approaches procurement, replacing the decades-old model of a fragmented and scattered approach to acquisition.” [Video intro](https://hallways.cap.gsa.gov/)
+
+### Technology governance
 
 #### [FedRAMP](https://www.fedramp.gov/about-us/about/)
 The Federal Risk and Authorization Management Program, or FedRAMP, is a government-wide program that provides a standardized approach to security assessment, authorization, and continuous monitoring for cloud products and services.
