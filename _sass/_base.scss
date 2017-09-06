@@ -11,19 +11,19 @@ h6 {
   font-family: 'Helvetica', sans-serif;
 }
 
-h1,
 h2,
 h3,
 h6 {
   font-weight: 100;
 }
 
-h2 {
-  color: $dark-gray;
+h1 {
+  font-weight: 400;
+  margin: 0;
 }
 
-h4 {
-  font-weight: 700;
+h2 {
+  color: $dark-gray;
 }
 
 h3:before {
@@ -37,6 +37,15 @@ h3 {
   line-height: 1.5em;
   text-transform: uppercase;
   margin-bottom: 1.5rem;
+}
+
+h4 {
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+
+h4, p {
+  margin-top: 0px;
 }
 
 h5 {
@@ -70,10 +79,6 @@ footer {
   padding: 3em 1em;
 }
 
-h1 {
-  margin: 0;
-}
-
 header {
   background-color: $dark-blue;
   background-image: url(../img/hero.jpg);
@@ -85,6 +90,14 @@ header {
   & > .container {
     max-width: 1000px;
     padding: 2em 0;
+
+    a {
+      color: black;
+    }
+
+    a:hover {
+      color: $dark-gray;
+    }
 
     @media all and (max-width:$mobile-width) {
       padding: 0;
@@ -102,6 +115,7 @@ header {
     .icon {
       width: 3em;
       height: 3em;
+      margin-bottom: 0.5em;
       margin-right: 0.3em;
 
       // the graph needs to be wider because
@@ -417,6 +431,7 @@ ul, ol {
   display: block;
   font-size: .8em;
   letter-spacing: .05em;
+  margin-top: 1.5rem;
   padding: 1em;
   text-align: center;
   text-decoration: none;

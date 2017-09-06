@@ -1,6 +1,7 @@
 ## Technology listings
 
 #### [Office of Government-wide Policy](https://gsa.gov/governmentwidepolicy)
+Organization created by GSA to consolidate its policy functions.
 
 #### TTS Software Catalog
 TTS Acquisitions project looking to establish a catalog of software that can be easily bought from.
