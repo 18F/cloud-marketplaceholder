@@ -74,6 +74,10 @@ ul li {
   margin-right: auto;
 }
 
+.container p {
+  font-weight: 100;
+}
+
 section,
 footer {
   padding: 3em 1em;
@@ -155,6 +159,7 @@ header {
 nav {
   background: #000;
   background: rgba(0, 0, 0, .8);
+  border-top: 1px solid white;
   position: relative;
 
   @media all and (max-width: $mobile-width) {
