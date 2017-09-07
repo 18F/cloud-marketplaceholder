@@ -328,10 +328,21 @@ section .container {
   position: relative;
 }
 
-ul li {
-  color: $dark-gray;
+main ul li {
+  color: $black;
   display: list-item;
-  list-style: square;
+  list-style: none;
+}
+
+main ul li::before {
+  color: $medium-gray;
+  content: "\25A0";
+  display: inline-block;
+  font-size: .9em;
+  padding-right: 1.1225em;
+  margin-left: -1.7em;
+  position: relative;
+  top: 0em;
 }
 
 ul, ol {
