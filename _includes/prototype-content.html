@@ -1,7 +1,6 @@
-<ul class="prototype">
   {% for prototype in page.prototype %}
     {% if prototype.image %}
-    <li>
+    <p class="prototype">
       <a class="cover" target="_blank" href="{{ prototype.href }}">
         <img src="{{ prototype.image.href | prepend: site.baseurl }}" alt="{{ prototype.image.alt }}">
       </a>
@@ -10,7 +9,6 @@
         <strong>{{ prototype.text.primary }}</strong>
         {{ prototype.text.secondary }}
       </a>
-    </li>
+    </p>
     {% endif %}
   {% endfor %}
-</ul>
