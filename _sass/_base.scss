@@ -24,6 +24,7 @@ h1 {
 
 h2 {
   color: $dark-gray;
+  margin-top: 6rem;
 }
 
 h3:before {
@@ -57,7 +58,11 @@ h5 {
 
 a:hover,
 a:active {
-  text-decoration: none;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: $medium-blue;
 }
 
 // clean up after the WDS list styles
@@ -76,7 +81,7 @@ ul li {
 }
 
 .container p {
-  font-weight: 100;
+  font-weight: 400;
 }
 
 section,
@@ -102,6 +107,10 @@ header {
 
     a:hover {
       color: $dark-gray;
+    }
+
+    p {
+      font-weight: 100;
     }
 
     @media all and (max-width:$mobile-width) {
@@ -132,7 +141,7 @@ header {
   }
 
   .flag-container {
-    background-color: $medium-blue;
+    background-color: $medium-gray;
     color: white;
     display: flex;
     flex-direction: row-reverse;
@@ -158,13 +167,12 @@ header {
 }
 
 nav {
-  background: #000;
-  background: rgba(0, 0, 0, .8);
-  border-top: 1px solid white;
+  background: #C2EC70;
+  background: rgba(194, 236, 112, .9);
   position: relative;
 
   @media all and (max-width: $mobile-width) {
-    background: rgba(0, 0, 0, .7);
+  background: rgba(194, 236, 112, .9);
   }
 
   ul {
@@ -185,16 +193,15 @@ nav {
   }
 
   a:link,
-  a:hover,
   a:visited {
-    color: $green;
+    color: $black;
     font-size: .8em;
+    font-weight: 700;
     letter-spacing: .1em;
   }
 
   a:hover {
-    color: $white;
-    text-decoration: none;
+    text-decoration: underline;
   }
 }
 
@@ -203,81 +210,6 @@ section h1 {
   margin-bottom: 1em;
   padding-bottom: .3em;
   position: relative;
-}
-
-
-aside {
-  position: absolute;
-  top: $right-gutter * 3.7;
-  right: $right-gutter / 6;
-
-  .prototype-text {
-    strong {
-      display: inline-block;
-      font-size: .9em;
-      font-weight: 400;
-    }
-
-    strong:hover {
-      text-decoration: underline;
-    }
-
-    span {
-      display: none;
-    }
-  }
-
-  .prototype-image {
-    display: none;
-  }
-
-  @media all and (min-width: $mobile-width) and (max-width: 1200px) {
-    display: none;
-  }
-
-  @media all and (max-width: $mobile-width) {
-    background-color: $blue;
-    margin-bottom: -1px;
-    padding: 2em 0;
-    position: relative;
-    right: auto;
-    top: auto;
-
-    h3 {
-      margin: 0;
-      margin-right: 2em;
-      text-align: right;
-
-      span {
-        align-items: center;
-        background-color: $white;
-        height: 2em;
-        border-radius: 2em;
-        display: flex;
-        float: right;
-        justify-content: center;
-        margin-left: 1em;
-        margin-top: -6px;
-        width: 2em;
-      }
-
-      span:after {
-        border: 3px solid $dark-blue;
-        border-top: none;
-        border-left: none;
-        content: "";
-        display: inline-block;
-        height: 10px;
-        margin-top: -5px;
-        transform: rotate(45deg);
-        width: 10px;
-      }
-    }
-
-    ul {
-      display: none;
-    }
-  }
 }
 
 #hypothesis h1 {
@@ -304,7 +236,7 @@ aside {
   }
 }
 
-#relevant h1 {
+#links h1 {
   border-color: $blue;
 
   &::after {
@@ -381,6 +313,7 @@ ul, ol {
 
   .prototype {
     width: 100%;
+    list-style: none;
 
     li {
       display: contents;
@@ -455,6 +388,10 @@ ul, ol {
     box-sizing: border-box;
     color: $black;
     text-decoration: none;
+  }
+
+  &:visited {
+    color: $black;
   }
 
   strong {
